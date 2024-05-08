@@ -22,7 +22,7 @@ const transporter = nodemailer.createTransport({
 
 app.use(express.json());
 
-app.use(express.static('/var/www/dbsped.com/DBSPEDfinal/dbsped/dist/db-international', {
+app.use(express.static('/var/www/dbsped.com/dbs/dbsped/dist/db-international', {
   setHeaders: (res, filePath) => {
       const ext = path.extname(filePath);
       const mimeTypes = {
