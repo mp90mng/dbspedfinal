@@ -1,0 +1,156 @@
+@media(min-width:1025px) and (max-width:1440px) {
+  .b-aboutH {
+
+    &__flexOne {
+      width: 49%;
+      padding-left: 4%;
+    }
+
+    &__flexTwo {
+      width: 63%;
+    }
+
+    &__flexTwo img {
+      width: 100%;
+      height: 590px;
+    }
+
+    &__titleText {
+      font-size: 30px;
+      width: 94%;
+    }
+
+    &__subText {
+      width: 90%;
+      font-size: 16px;
+
+    }
+
+  }
+}
+
+@media(min-width:769px) and (max-width:1024px) {
+  .b-aboutH {
+    margin-top: -48px;
+
+    &__flexOne {
+      width: 60%;
+      padding-top: 4.5%;
+      padding-left: 4%;
+    }
+
+    &__flexTwo {
+      width: 75%;
+    }
+
+    &__flexTwo img {
+      width: 100%;
+      height: 450px;
+    }
+
+
+    &__titleText {
+      font-size: 24px;
+      width: 94%;
+    }
+
+    &__subText {
+      width: 95%;
+      font-size: 15px;
+
+    }
+
+  }
+}
+
+@media(min-width:600px) and (max-width:768px) {
+  .b-aboutH {
+    flex-direction: column;
+    align-items: center;
+
+
+    &__titleText {
+      width: 68%;
+      font-size: 29px;
+    }
+
+
+    &__flexTwo {
+      margin-top: 10%;
+    }
+
+    &__flexTwo img {
+      width: 100%;
+    }
+  }
+}
+
+@media(min-width:420px) and (max-width:600px) {
+  .b-aboutH {
+    flex-direction: column;
+    align-items: center;
+
+    &__titleText {
+      width: 60%;
+      font-size: 29px;
+    }
+
+
+    &__flexTwo {
+      margin-top: 10%;
+    }
+
+    &__flexTwo img {
+      width: 100%;
+    }
+
+
+    &__titleText {
+      font-size: 30px;
+      width: 94%;
+    }
+
+    &__subText {
+      width: 90%;
+      font-size: 16px;
+
+    }
+  }
+}
+
+@media (max-width:419px) {
+  .b-aboutH {
+    flex-direction: column;
+    align-items: center;
+
+    &__titleText {
+      width: 60%;
+      font-size: 33px;
+    }
+
+
+    &__flexTwo {
+      margin-top: 10%;
+    }
+
+    &__flexTwo img {
+      width: 100%;
+    }
+
+    &__title {
+      font-size: 19px;
+    }
+
+    &__titleText {
+      font-size: 25px;
+      width: 94%;
+    }
+
+    &__subText {
+      width: 90%;
+      font-size: 15px;
+
+    }
+
+  }
+}

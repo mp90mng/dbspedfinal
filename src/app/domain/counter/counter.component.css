@@ -1,0 +1,46 @@
+.b-count {
+  background-color: #201e1f;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.562)), url("/assets/images/counter/bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-family: "Roboto-Bold";
+  color: #ef3035;
+  position: relative;
+  margin-top: -2px;
+}
+.b-count__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.b-count__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 20%;
+  padding-bottom: 5%;
+}
+.b-count__flex div:nth-of-type(1) {
+  font-size: 30px;
+}
+.b-count__icon {
+  width: 20%;
+  margin-bottom: 1%;
+}
+.b-count__title {
+  padding-bottom: 2%;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.b-count__text {
+  text-align: center;
+  letter-spacing: 1px;
+  width: 77%;
+  font-size: 18px;
+  color: #D2D2D2;
+  margin-top: 0%;
+}/*# sourceMappingURL=counter.component.css.map */

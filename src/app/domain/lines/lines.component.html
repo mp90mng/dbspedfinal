@@ -1,0 +1,35 @@
+<div class="b-lines">
+  <div class="b-lines__line b-lines__lineOne" [class.hidden]="!scroll"  [@fadeIn]="fade">
+    <div class="b-lines__text">{{ 'services.destination' | translate }}</div>
+    <div *ngIf="arrow">
+      <img src="assets/images/services/arrow.png" alt="arrow">
+    </div>
+  </div>
+
+  <div class="b-lines__line b-lines__lineTwo" [class.hidden]="!scroll" [@fadeIn]="fade">
+    <div class="b-lines__text">{{ 'services.CRM' | translate }}</div>
+    <div *ngIf="arrow">
+      <img src="assets/images/services/arrow.png" alt="arrow">
+    </div>
+  </div>
+
+  <div class="b-lines__line b-lines__lineThree" [class.hidden]="!scroll" [@fadeIn]="fade">
+    <div class="b-lines__text">{{ 'services.communication' | translate }}</div>
+    <div *ngIf="arrow">
+      <img src="assets/images/services/arrow.png" [class.hidden]="!scroll" alt="arrow">
+    </div>
+  </div>
+
+  <div class="b-lines__line b-lines__lineFour" [class.hidden]="!scroll" [@fadeIn]="fade">
+    <div class="b-lines__text">{{ 'services.GPS' | translate }}</div>
+    <div *ngIf="arrow">
+      <img src="assets/images/services/arrow.png" alt="arrow">
+    </div>
+  </div>
+
+  <div class="b-lines__line b-lines__lineFive" [class.hidden]="!scroll" [@fadeIn]="fade">
+    <div class="b-lines__text">{{ 'services.team' | translate }}</div>
+  </div>
+
+
+</div>

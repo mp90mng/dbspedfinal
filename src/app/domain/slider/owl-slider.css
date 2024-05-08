@@ -1,0 +1,14 @@
+.b-slider .owl-dots .owl-dot span {
+  margin-top: -100px !important;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .b-slider .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 30px !important;
+  }
+}
+@media (max-width: 599px) {
+  .b-slider .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 40px !important;
+  }
+}/*# sourceMappingURL=owl-slider.css.map */

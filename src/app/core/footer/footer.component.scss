@@ -1,0 +1,125 @@
+.b-footer {
+  font-family: 'Roboto';
+  padding-top: 2%;
+  background-color: #353333;
+  color: #fff;
+
+  &__flex {
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    gap: 10%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+  }
+
+  &__logo {
+    width: 25%;
+  }
+
+  &__logo img {
+    width: 51%;
+    height: 63%;
+  }
+
+  &__title {
+    width: 70%;
+  }
+
+  &__menu {
+    margin-top: 1%;
+  }
+
+  &__menu div,
+  &__contact {
+    margin-left: 15%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto-Bold';
+    text-align: center;
+  }
+
+
+  &__menu div {
+    margin-left: 13%;
+  }
+
+  &__contact {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 0;
+    letter-spacing: 5%;
+    text-align: left;
+  }
+
+  &__infoIcons div {
+    margin-top: 3%;
+    margin-bottom: 6%;
+  }
+
+  &__company {
+    font-size: 20px;
+    color: #ef3035;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+  }
+
+  &__info img {
+    vertical-align: middle;
+    width: 8%;
+    margin-right: 4%;
+  }
+
+  &__links {
+    text-align: left;
+  }
+
+  ul {
+    list-style: none;
+    text-align: left;
+  }
+
+  li {
+    text-align: left;
+    cursor: pointer;
+    color: #ef3035;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+  }
+
+  li:hover {
+    color: #d41014;
+  }
+
+  a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #ef3035;
+    text-shadow: 2px 2px #00000040;
+    margin-bottom: 5%;
+  }
+
+  &__rights {
+    text-align: center;
+    background-color: #000;
+    padding: 1% 0;
+  }
+
+  &__media {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__media div {
+    cursor: pointer;
+  }
+
+  &__media div img {
+    width:90%;
+  }
+}

@@ -1,0 +1,34 @@
+.b-contactImg {
+  margin-top: -4.4%;
+
+
+  img {
+    margin: -3px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+}
+
+.curtainR {
+  animation: rCurtain 0.2s ease-in forwards;
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+
+@keyframes rCurtain {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left center;
+    opacity: 0;
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: right center;
+    opacity: 1;
+  }
+}

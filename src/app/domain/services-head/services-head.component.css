@@ -1,0 +1,28 @@
+.b-serviceImg {
+  padding-top: 4%;
+  position: relative;
+}
+.b-serviceImg img {
+  margin-top: -6px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fadeIn {
+  animation: fadeIn 0.2s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(-200%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=services-head.component.css.map */

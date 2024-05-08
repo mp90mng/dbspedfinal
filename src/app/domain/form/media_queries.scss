@@ -1,0 +1,160 @@
+@media(min-width:1025px) and (max-width:1440px) {
+  .b-form {
+    &__wrap {
+      width: 50%;
+    }
+
+    &__imgWrap {
+      width: 35%;
+    }
+
+    &__messageSent{
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  }
+}
+
+@media(min-width:769px) and (max-width:1024px) {
+  .b-form {
+    &__wrap {
+      width: 50%;
+    }
+
+    &__title {
+      font-size: 30px;
+    }
+
+    form {
+      width: 80%;
+    }
+
+    input {
+      font-size: 15px;
+    }
+
+
+    textarea {
+      font-size: 15.5px;
+    }
+
+    &__imgWrap {
+      width: 42%;
+    }
+
+    &__messageSent{
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  }
+}
+
+@media (min-width:800px) and (max-width:900px) {
+  .b-form {
+    &__text {
+      width: 60%;
+    }
+  }
+}
+
+
+@media (min-width:500px) and (max-width:768px) {
+  .b-form {
+
+    &__flex {
+      flex-direction: column;
+    }
+
+    &__wrap {
+      width: 60%;
+    }
+
+    &__text {
+      width: 63%;
+    }
+
+    input {
+      font-size: 15px;
+    }
+
+    textarea {
+      font-size: 15.5px;
+    }
+
+    button {
+      margin: 0 auto;
+      padding: 2% 10%;
+    }
+
+    &__imgWrap {
+      width: 60%;
+      margin-top: 3%;
+    }
+
+    &__mainTitle {
+      font-size: 30px;
+    }
+
+    &__messageSent {
+      font-size: 20px;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+
+  }
+}
+
+@media (max-width:499px) {
+  .b-form {
+
+    padding-top: 7%;
+
+    &__flex {
+      flex-direction: column;
+    }
+
+    &__wrap {
+      width: 100%;
+    }
+
+    &__title {
+      font-size: 22px;
+    }
+
+    &__text {
+      font-size: 14px;
+      width: 90%;
+    }
+
+    form {
+      width: 90%;
+      margin-bottom: 4%;
+    }
+
+    input {
+      font-size: 15px;
+    }
+
+    textarea {
+      font-size: 15.5px;
+    }
+
+    button {
+      margin: 0 auto;
+      padding: 2% 10%;
+    }
+
+    &__imgWrap {
+      width: 85%;
+    }
+    
+
+    &__messageSent {
+      font-size: 16px;
+      margin-bottom: 10%;
+      margin-top: 10%;
+    }
+
+
+  }
+}

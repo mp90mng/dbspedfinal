@@ -1,0 +1,54 @@
+.b-clients {
+  margin: auto;
+  padding-bottom: 3%;
+  color: #000;
+
+
+  &__mainTitle {
+    padding-top: 5%;
+    padding-bottom: 4%;
+    font-size: 40px;
+    text-align: center;
+    color: #ef3035;
+    font-family: "Roboto-Bold";
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 50%;
+    margin-left: 10%;
+  }
+
+  &__slide {
+    margin: 0 auto;
+  }
+
+
+  &__wrapper {
+    width:37%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  &__text {
+    color: #D2D2D2;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 2%;
+  }
+
+  &__partner {
+    text-align: left;
+    padding-top: 5%;
+    color: #D2D2D2;
+    font-size: 21px;
+    font-family: "Montserrat-SemiBold";
+  }
+
+
+}

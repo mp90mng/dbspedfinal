@@ -1,0 +1,125 @@
+ {
+   "routes": {
+     "en/home": "en/home",
+     "en/about": "en/about",
+     "en/services": "en/services",
+     "en/contact": "en/contact"
+   },
+
+   "header": {
+     "home": "Home",
+     "about": "About us",
+     "services": "Services",
+     "contactUs": "Contact"
+   },
+
+   "footer": {
+     "about": "About us",
+     "services": "Services",
+     "contactUs": "Contact Us",
+     "contact": "Contact",
+     "company": "DB International Sped Ltd.",
+     "addressText": "Sveta Gora 8, Blagoevgrad, Bulgaria",
+     "text": "Everyday is a new day for us and we work really hard to satisfy our customers everywhere",
+     "links": "Links",
+     "rights": "All rights reserved"
+   },
+
+
+   "aboutUs": {
+     "title": "About us",
+     "story": "Story",
+     "history": "The company DB International Sped is a freight and logistics company founded in 2016 by the young and ambitious entrepreneur Mr. Stojan Gavrilov. The company started as a small business activity with only one truck and a vision to provide secure and efficient transport services.At the moment our company has over 140 employees, professionally trained to perform their duties proficiently and are effectively synchronized to meet all the requirements of our clients. Through dedication, hard work, and successful management, the company experienced remarkable growth and expansion. Today, they are proud to manage a fleet of over 80 trucks and are considered a fast-growing, modern, and credible transport company.",
+     "values": "Values",
+     "mission": "Mission",
+     "missionText": "The company aims to deliver exceptional transportation solutions, prioritizing efficiency, safety, and affordability with the highest standards of professionalism.",
+     "integrity": "Integrity",
+     "integrityText": "The company is committed to leading its business with the highest integrity, honesty, and transparency, fostering trust and respect in all its relationships.",
+     "excellence": "Excellence",
+     "excellenceText": "The company is dedicated to achieving perfection in every aspect of its operations, from client services to operational efficiency.",
+     "innovation": "Innovation",
+     "innovationText": "Embracing innovation enables the company to stay ahead of industry trends and deliver top-notch solutions to its clients.",
+     "loyalty": "Loyalty",
+     "loyaltyText": "The company’s experience speaks for itself - it is unwavering in its commitment, loyalty, and consistency in everything it does.",
+     "vision": "Vision",
+     "visionText": "Looking ahead, the company’s vision is to continue expanding globally while maintaining a personalized approach as a family business."
+   },
+
+   "numbers": {
+     "title": "Our growth in numbers",
+     "employees": "employees",
+     "km": "kilometers yearly",
+     "clients": "clients",
+     "turnover": "euro annual turnover"
+   },
+
+   "reasons": {
+     "reasonsText": "Six reasons to choose us",
+     "safe": "Always Safe",
+     "environment": "Eco Friendly",
+     "solutions": "Perfect Solutions",
+     "quality": "100% Quality",
+     "customerSatisfaction": "Satisfied customers",
+     "available": "Available 24/7"
+   },
+
+   "contact": {
+     "contactInfo": "Get in touch",
+     "contactUs": "Contact us",
+     "contactText": "Want to learn more about our company? Feel free to get in touch! Whether you have questions, feedback, or simply want to connect, we're here to help",
+     "contactMessage": "Thank you! Your message has been sent.",
+     "name": "Name or Company Name",
+     "email": "Email",
+     "phone": "Phone number",
+     "message": "Message",
+     "submit": "Submit"
+   },
+
+
+   "errors": {
+     "required": "This field is required",
+     "email": "Please enter a valid email address" ,
+     "phone": "Please enter a valid phone number"
+   },
+
+   "destination": {
+     "destinations": "Destination: Excellence",
+     "destinationsText": "Reach your destination 100% sure and safe",
+     "destinationBtn": "Contact us"
+   },
+
+   "aboutHome": {
+     "title": "About Us",
+     "titleText": "Moving your products across all borders.",
+     "titleSubText": "We specialize in transporting your products across borders, ensuring a smooth and reliable logistics experience. With our dedicated team and cutting-edge solutions, we prioritize the safe and efficient delivery of your goods, making us the trusted partner for all your transportation needs."
+   },
+
+   "banner": {
+    "text": "Your Goods, Our Guarantee"
+   },
+
+   "services": {
+    "title": "Services",
+    "text": "DB International Sped specializes in the international transportation of goods across numerous European countries, including  Germany, Denmark, Norway, Sweden, The Netherlands, Italy, England, Spain, Portugal, Belgium, Austria, and others counties across Europe. Our priority is to conduct our operations with the utmost professionalism, particularly emphasizing the safety of the goods we handle. All trucks under our ownership are insured with CMR insurance, ensuring comprehensive protection for both the cargo and the transporter. You can have full confidence in entrusting your goods to us, as we guarantee their safety throughout the transportation process, including loading and unloading, which are overseen by the same responsible driver. Presently, we operate with a fleet of over 80 trucks, comprising both standard and mega-sized vehicles, servicing various routes. Equipped with GPS navigation systems, our trucks enable punctual, reliable, and meticulously planned delivery of transported goods.",
+    "GPS": "Real-time GPS positioning and tracking of vehicles anytime",
+    "communication": "Continuous communication with vehicles around the clock",
+    "team": "Effective communication with our team members",
+    "CRM": "All vehicles covered by full CMR insurance",
+    "destination": "Destination: from/to Europe"
+   },
+
+   "slogans": {
+    "services": "Your reliable partner in transporting goods from point A to point B"
+   },
+
+
+   "testimonials": {
+      "title": "What our partners say",
+      "textOne": "Their professionalism, reliability, and dedication in delivering top shipments safely and on time have surpassed our expectations.From the moment we engaged their services, we've been impressed by their attention to detail and their commitment to customer satisfaction.",
+      "partnerOne": "Ulaş Kaya - Greenlog Intermodal",
+      "textTwo": "We're delighted to be collaborating with DB International Sped. We are extremely satisfied with the exceptional service they've provided. Their efficiency,promptness and personalized approach stand out compared to other companies. They carefully managed every detail from beginning to end, making sure everything went smoothly and without any hassle.",
+      "partnerTwo": "Radmila Andonov - B+R Logistik GMBH"
+   }
+
+
+ }

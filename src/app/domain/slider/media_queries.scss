@@ -1,0 +1,180 @@
+@media (min-width:1025px) and (max-width:1440px) {
+  .b-slider {
+    padding-top: 5%;
+
+    &__slogan {
+      width: 55%;
+      font-size: 22px;
+      top: 53%;
+      left: 22.5%;
+    }
+
+    &__img {
+      width: 45%;
+      left: 28%;
+    }
+  }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+  .b-slider {
+    padding-top: 12.5%;
+
+    &__slogan {
+      width: 63%;
+      font-size: 20px;
+      top: 52%;
+      left: 18%;
+    }
+
+    &__img {
+      width: 45%;
+      left: 29%;
+    }
+
+    
+    &__slideImg {
+      height: 590px;
+    }
+  }
+}
+
+@media (min-width:800px) and (max-width:900px) {
+  .b-slider {
+
+    &__slogan {
+      top: 50%;
+      left: 21%;
+    }
+
+    &__img {
+      width: 45%;
+      left: 30%;
+    }
+
+
+    &__slideImg {
+      object-position: 25% center;
+    }
+  }
+}
+
+
+@media (min-width:600px) and (max-width:799px) {
+  .b-slider {
+    padding-top: 12.5%;
+
+    &__slogan {
+      width: 62%;
+      font-size: 19px;
+      top: 48%;
+      left: 20%;
+    }
+
+    &__img {
+      width: 47%;
+      left: 28%;
+      top: 39%;
+    }
+
+    &__slideImg {
+      height: 473px;
+      object-position: 23% center;
+    }
+  }
+}
+
+@media (max-width:599px) {
+  .b-slider {
+    padding-top: 16.5%;
+
+
+    &__slogan {
+      width: 75%;
+      font-size: 16.5px;
+      top: 47%;
+      left: 13%;
+    }
+
+    &__img {
+      width: 65%;
+      left: 20%;
+      top: 34%;
+    }
+
+    &__slideImg {
+      height: 439px;
+      object-position: 22% center;
+    }
+  }
+}
+
+@media (min-width:321px) and (max-width:430px) {
+  .b-slider {
+
+    &__slogan {
+      width: 80%;
+      top: 50%;
+      left: 12%;
+    }
+
+    &__img {
+      width: 80%;
+      left: 12%;
+      top: 43%;
+    }
+
+    &__slideImg {
+      height: 466px;
+      object-position: 43% center;
+    }
+  }
+}
+
+@media  (max-width:320px) {
+  .b-slider {
+    &__slogan {
+      width: 80%;
+      top: 50%;
+      left: 12%;
+      font-size: 13.5px;
+    }
+
+    &__img {
+      width: 80%;
+      left: 12%;
+      top: 43%;
+    }
+
+    &__slideImg {
+      height: 402px;
+      object-position: 43% center;
+    }
+  }
+}
+
+
+
+// @media (max-width:280px) {
+//   .b-slider {
+
+//     &__slogan {
+//       width: 95%;
+//       font-size: 12px;
+//       top: 42%;
+//       left: 3%;
+//     }
+
+    
+//     &__img {
+//       width: 80%;
+//       left: 12%;
+//       top: 36%;
+//     }
+
+//     &__slideImg {
+//       height: 462px;
+//       object-position: 41% center;
+//     }
+//   }
+// }

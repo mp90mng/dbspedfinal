@@ -1,0 +1,58 @@
+@media(min-width:1025px) and (max-width:1440px) {
+  .b-services {
+    &__text {
+      width: 63%;
+    }
+  }
+}
+
+
+@media(min-width:769px) and (max-width:1024px) {
+  .b-services {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 17px;
+      width: 80%;
+    }
+  }
+}
+
+@media(min-width:500px) and (max-width:768px) {
+  .b-services {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 17px;
+      width: 89%;
+    }
+  }
+}
+
+@media (max-width:499px) {
+  .b-services {
+    &__title {
+      font-size: 22px;
+    }
+
+    &__text {
+      text-align: left;
+      line-height: 21px;
+      font-size: 15px;
+      width: 94%;
+    }
+  }
+}
+
+
+@media (max-width:320px) {
+  .b-services {
+    &__text {
+      width: 93%;
+    }
+  }
+}

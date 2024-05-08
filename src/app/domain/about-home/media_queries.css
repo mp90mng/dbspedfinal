@@ -1,0 +1,113 @@
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .b-aboutH__flexOne {
+    width: 49%;
+    padding-left: 4%;
+  }
+  .b-aboutH__flexTwo {
+    width: 63%;
+  }
+  .b-aboutH__flexTwo img {
+    width: 100%;
+    height: 590px;
+  }
+  .b-aboutH__titleText {
+    font-size: 30px;
+    width: 94%;
+  }
+  .b-aboutH__subText {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .b-aboutH {
+    margin-top: -48px;
+  }
+  .b-aboutH__flexOne {
+    width: 60%;
+    padding-top: 4.5%;
+    padding-left: 4%;
+  }
+  .b-aboutH__flexTwo {
+    width: 75%;
+  }
+  .b-aboutH__flexTwo img {
+    width: 100%;
+    height: 450px;
+  }
+  .b-aboutH__titleText {
+    font-size: 24px;
+    width: 94%;
+  }
+  .b-aboutH__subText {
+    width: 95%;
+    font-size: 15px;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  .b-aboutH {
+    flex-direction: column;
+    align-items: center;
+  }
+  .b-aboutH__titleText {
+    width: 68%;
+    font-size: 29px;
+  }
+  .b-aboutH__flexTwo {
+    margin-top: 10%;
+  }
+  .b-aboutH__flexTwo img {
+    width: 100%;
+  }
+}
+@media (min-width: 420px) and (max-width: 600px) {
+  .b-aboutH {
+    flex-direction: column;
+    align-items: center;
+  }
+  .b-aboutH__titleText {
+    width: 60%;
+    font-size: 29px;
+  }
+  .b-aboutH__flexTwo {
+    margin-top: 10%;
+  }
+  .b-aboutH__flexTwo img {
+    width: 100%;
+  }
+  .b-aboutH__titleText {
+    font-size: 30px;
+    width: 94%;
+  }
+  .b-aboutH__subText {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+@media (max-width: 419px) {
+  .b-aboutH {
+    flex-direction: column;
+    align-items: center;
+  }
+  .b-aboutH__titleText {
+    width: 60%;
+    font-size: 33px;
+  }
+  .b-aboutH__flexTwo {
+    margin-top: 10%;
+  }
+  .b-aboutH__flexTwo img {
+    width: 100%;
+  }
+  .b-aboutH__title {
+    font-size: 19px;
+  }
+  .b-aboutH__titleText {
+    font-size: 25px;
+    width: 94%;
+  }
+  .b-aboutH__subText {
+    width: 90%;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=media_queries.css.map */

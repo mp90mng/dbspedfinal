@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+  .b-slogans {
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .b-slogans__content {
+    display: none;
+  }
+  .b-slogans__owlContainerSlogans {
+    opacity: 1;
+    visibility: visible;
+    max-height: 100%;
+  }
+  .b-slogans__mainTitle {
+    font-size: 30px;
+  }
+  .b-slogans__title {
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .b-slogans__text {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    width: 67%;
+  }
+}
+@media (max-width: 500px) {
+  .b-slogans__mainTitle {
+    font-size: 22px;
+  }
+  .b-slogans__text {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=media_queries.css.map */

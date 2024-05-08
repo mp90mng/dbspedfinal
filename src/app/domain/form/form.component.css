@@ -1,0 +1,104 @@
+.b-form {
+  background-color: #000;
+  padding-top: 3%;
+  padding-bottom: 7%;
+}
+.b-form__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b-form__wrap {
+  display: flex;
+  width: 40%;
+}
+.b-form__title {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 40px;
+  text-align: center;
+  color: #ef3035;
+  font-family: "Roboto-Bold";
+  text-transform: uppercase;
+}
+.b-form__text {
+  padding-bottom: 3%;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  color: #d2dcde;
+  font-family: "Montserrat-Regular";
+}
+.b-form form {
+  width: 450px;
+  margin: 0 auto;
+}
+.b-form .invalid {
+  border: 2.5px solid #ef3035;
+}
+.b-form .err {
+  margin-top: 2%;
+  margin-bottom: 20%;
+  font-size: 16px;
+  color: #ef3035;
+  font-family: "Montserrat-Regular";
+}
+.b-form input {
+  height: 45px;
+  font-size: 17px;
+}
+.b-form textarea {
+  height: 120px;
+  font-size: 17.5px;
+}
+.b-form input,
+.b-form textarea {
+  width: 100%;
+  border: 1px solid #d2dcde;
+  font-family: "Montserrat-Regular";
+  color: #534f4f;
+  padding-left: 1.5%;
+  background: #d2dcde;
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+}
+.b-form input:focus,
+.b-form textarea:focus {
+  outline: none;
+}
+.b-form button {
+  margin-top: 2.5%;
+  background: #ef3035;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D2D2D2;
+  padding: 1.5% 7%;
+  border: none;
+  font-size: 18px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.b-form button:hover {
+  background: #d41014;
+}
+.b-form button[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.b-form__imgWrap {
+  width: 30%;
+}
+.b-form__img {
+  width: 100%;
+  height: auto;
+}
+.b-form__messageSent {
+  text-align: center;
+  font-size: 27px;
+  color: #d2dcde;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  font-family: "Montserrat-Regular";
+}/*# sourceMappingURL=form.component.css.map */

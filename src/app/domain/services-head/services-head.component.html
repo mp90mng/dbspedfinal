@@ -1,0 +1,6 @@
+|<div class="b-serviceImg">
+    <div class="b-serviceImg__flex">
+        <div *ngFor="let image of images; let i = index" class="fadeIn" [style.animation-delay] = 'animation(i)'>
+            <img [src]="image.img" [width]="imageWidth" [height]="imageHeight" priority alt="truck">        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+@media (min-width: 1310px) and (max-width: 1520px) {
+  .b-contact__icons {
+    width: 18%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1309px) {
+  .b-contact__icons {
+    width: 22.5%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .b-contact__icons {
+    font-size: 17px;
+    width: 28%;
+  }
+  .b-contact__title {
+    font-size: 30px;
+  }
+}
+@media (min-width: 431px) and (max-width: 768px) {
+  .b-contact__flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .b-contact__icons {
+    margin-bottom: 5%;
+    padding: 5% 0;
+    font-size: 17px;
+    width: 53%;
+  }
+  .b-contact__icons div {
+    font-size: 19px;
+  }
+  .b-contact__title {
+    font-size: 30px;
+  }
+  .b-contact img {
+    width: 20%;
+  }
+}
+@media (max-width: 430px) {
+  .b-contact__flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .b-contact__icons {
+    margin-bottom: 5%;
+    padding: 10% 0;
+    font-size: 15px;
+    width: 75%;
+  }
+  .b-contact__title {
+    font-size: 22px;
+  }
+  .b-contact img {
+    width: 20%;
+  }
+}/*# sourceMappingURL=media_queries.css.map */

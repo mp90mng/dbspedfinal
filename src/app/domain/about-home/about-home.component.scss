@@ -1,0 +1,51 @@
+.b-aboutH {
+  font-family: "Montserrat-Regular";
+  display: flex;
+  justify-content: center;
+  margin-top: -32px;
+
+  &__flexOne {
+    padding-top: 13%;
+    padding-left: 13%;
+  }
+
+  &__title {
+    font-size: 21px;
+    font-family: 'Roboto';
+    color: #ef3035;
+  }
+
+  &__titleText {
+    margin-bottom: 2%;
+    margin-top: .5%;
+    width: 80%;
+    font-family: "Roboto-Bold";
+    font-size: 40px;
+  }
+
+  &__subText {
+    letter-spacing: 1px;
+    width: 77%;
+    font-size: 18px;
+    color: #D2D2D2;
+  }
+
+  button {
+    margin-top: 2%;
+    background: #ef3035;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D2D2D2;
+    padding: 1.5% 3%;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #d41014;
+  }
+
+}

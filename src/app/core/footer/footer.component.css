@@ -1,0 +1,103 @@
+.b-footer {
+  font-family: "Roboto";
+  padding-top: 2%;
+  background-color: #353333;
+  color: #fff;
+}
+.b-footer__flex {
+  display: flex;
+  justify-content: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  gap: 10%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+.b-footer__logo {
+  width: 25%;
+}
+.b-footer__logo img {
+  width: 51%;
+  height: 63%;
+}
+.b-footer__title {
+  width: 70%;
+}
+.b-footer__menu {
+  margin-top: 1%;
+}
+.b-footer__menu div, .b-footer__contact {
+  margin-left: 15%;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto-Bold";
+  text-align: center;
+}
+.b-footer__menu div {
+  margin-left: 13%;
+}
+.b-footer__contact {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 0;
+  letter-spacing: 5%;
+  text-align: left;
+}
+.b-footer__infoIcons div {
+  margin-top: 3%;
+  margin-bottom: 6%;
+}
+.b-footer__company {
+  font-size: 20px;
+  color: #ef3035;
+  letter-spacing: 1px;
+  margin-bottom: 5%;
+}
+.b-footer__info img {
+  vertical-align: middle;
+  width: 8%;
+  margin-right: 4%;
+}
+.b-footer__links {
+  text-align: left;
+}
+.b-footer ul {
+  list-style: none;
+  text-align: left;
+}
+.b-footer li {
+  text-align: left;
+  cursor: pointer;
+  color: #ef3035;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+.b-footer li:hover {
+  color: #d41014;
+}
+.b-footer a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #ef3035;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2509803922);
+  margin-bottom: 5%;
+}
+.b-footer__rights {
+  text-align: center;
+  background-color: #000;
+  padding: 1% 0;
+}
+.b-footer__media {
+  display: flex;
+  justify-content: center;
+}
+.b-footer__media div {
+  cursor: pointer;
+}
+.b-footer__media div img {
+  width: 90%;
+}/*# sourceMappingURL=footer.component.css.map */

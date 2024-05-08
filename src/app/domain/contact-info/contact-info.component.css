@@ -1,0 +1,37 @@
+.b-contact {
+  padding-bottom: 5%;
+}
+.b-contact__title {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 40px;
+  text-align: center;
+  color: #ef3035;
+  font-family: "Roboto-Bold";
+  text-transform: uppercase;
+}
+.b-contact__flex {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.b-contact__icons {
+  font-size: 18px;
+  font-family: "Roboto";
+  width: 15%;
+  padding: 2% 0;
+  text-align: center;
+  border: 2px solid #ef3035;
+  transition: transform 0.4s ease-in-out;
+}
+.b-contact__icons:hover {
+  background-color: #ef3035;
+  transform: translateY(-10px);
+}
+.b-contact__icons div {
+  padding-top: 2%;
+  line-height: 25px;
+}
+.b-contact__icons div:nth-child(3) {
+  display: none;
+}/*# sourceMappingURL=contact-info.component.css.map */

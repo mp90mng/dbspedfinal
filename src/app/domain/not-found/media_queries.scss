@@ -1,0 +1,37 @@
+@media (min-width:1024px) and (max-width:1440px) {
+  .b-notFound {
+    padding-top: 25%;
+    padding-bottom: 20%;
+    font-size: 27px;
+  }
+}
+
+
+@media (min-width:769px) and (max-width:1023px) {
+    .b-notFound {
+      padding-top:40%;
+      padding-bottom: 25%;
+      font-size: 27px;
+    }
+  }
+  
+
+  @media (min-width:500px) and (max-width:768px) {
+    .b-notFound {
+      padding-top:40%;
+      padding-bottom: 25%;
+      font-size: 23px;
+    }
+  }
+
+
+  @media (max-width:499px) {
+    .b-notFound {
+      padding-top:50%;
+      padding-bottom: 50%;
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  
+  

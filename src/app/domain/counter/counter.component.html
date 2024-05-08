@@ -1,0 +1,31 @@
+<div class="b-count">
+  <div class="b-count__title">{{ "numbers.title" | translate}}</div>
+  <div class="b-count__wrap">
+    <div class="b-count__flex">
+      <img class="b-count__icon" src="assets/images/counter/clients.png" alt="clients">
+      <div>{{ clients >= 500 ? '+' : ''  }}{{clients}}</div>
+      <div class="b-count__text">{{ "numbers.clients" | translate }}</div>
+    </div>
+
+    <div class="b-count__flex">
+      <img class="b-count__icon bla" src="assets/images/counter/km.png" alt="counter">
+      <div>{{ km >= 10 ? '+' : '' }}{{ km }}M</div>
+      <div class="b-count__text">{{ "numbers.km" | translate }}</div>
+    </div>
+
+
+    <div class="b-count__flex">
+      <img class="b-count__icon" src="assets/images/counter/turnover.png" alt="turnover">
+      <div>{{ turnover >= 10 ? '+' : '' }}{{ turnover }}M</div>
+      <div class="b-count__text">{{ "numbers.turnover" | translate }}</div>
+    </div>
+
+
+    <div class="b-count__flex">
+      <img class="b-count__icon" src="assets/images/counter/employees.png" alt="employees">
+      <div>{{ employees >=140 ? '+' : '' }}{{ employees }}</div>
+      <div class="b-count__text">{{ "numbers.employees" | translate }}</div>
+    </div>
+
+  </div>
+</div>

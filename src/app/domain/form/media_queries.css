@@ -1,0 +1,114 @@
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .b-form__wrap {
+    width: 50%;
+  }
+  .b-form__imgWrap {
+    width: 35%;
+  }
+  .b-form__messageSent {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .b-form__wrap {
+    width: 50%;
+  }
+  .b-form__title {
+    font-size: 30px;
+  }
+  .b-form form {
+    width: 80%;
+  }
+  .b-form input {
+    font-size: 15px;
+  }
+  .b-form textarea {
+    font-size: 15.5px;
+  }
+  .b-form__imgWrap {
+    width: 42%;
+  }
+  .b-form__messageSent {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+  .b-form__text {
+    width: 60%;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .b-form__flex {
+    flex-direction: column;
+  }
+  .b-form__wrap {
+    width: 60%;
+  }
+  .b-form__text {
+    width: 63%;
+  }
+  .b-form input {
+    font-size: 15px;
+  }
+  .b-form textarea {
+    font-size: 15.5px;
+  }
+  .b-form button {
+    margin: 0 auto;
+    padding: 2% 10%;
+  }
+  .b-form__imgWrap {
+    width: 60%;
+    margin-top: 3%;
+  }
+  .b-form__mainTitle {
+    font-size: 30px;
+  }
+  .b-form__messageSent {
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 499px) {
+  .b-form {
+    padding-top: 7%;
+  }
+  .b-form__flex {
+    flex-direction: column;
+  }
+  .b-form__wrap {
+    width: 100%;
+  }
+  .b-form__title {
+    font-size: 22px;
+  }
+  .b-form__text {
+    font-size: 14px;
+    width: 90%;
+  }
+  .b-form form {
+    width: 90%;
+    margin-bottom: 4%;
+  }
+  .b-form input {
+    font-size: 15px;
+  }
+  .b-form textarea {
+    font-size: 15.5px;
+  }
+  .b-form button {
+    margin: 0 auto;
+    padding: 2% 10%;
+  }
+  .b-form__imgWrap {
+    width: 85%;
+  }
+  .b-form__messageSent {
+    font-size: 16px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+}/*# sourceMappingURL=media_queries.css.map */

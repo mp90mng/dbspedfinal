@@ -1,0 +1,39 @@
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .b-services__text {
+    width: 63%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .b-services__title {
+    font-size: 30px;
+  }
+  .b-services__text {
+    font-size: 17px;
+    width: 80%;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .b-services__title {
+    font-size: 30px;
+  }
+  .b-services__text {
+    font-size: 17px;
+    width: 89%;
+  }
+}
+@media (max-width: 499px) {
+  .b-services__title {
+    font-size: 22px;
+  }
+  .b-services__text {
+    text-align: left;
+    line-height: 21px;
+    font-size: 15px;
+    width: 94%;
+  }
+}
+@media (max-width: 320px) {
+  .b-services__text {
+    width: 93%;
+  }
+}/*# sourceMappingURL=media_queries.css.map */

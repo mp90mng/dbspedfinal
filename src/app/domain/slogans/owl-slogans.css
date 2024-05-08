@@ -1,0 +1,15 @@
+.b-slogans__owlContainerSlogans .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 100px !important;
+  padding-bottom: 3%;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .b-slogans__owlContainerSlogans .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 55px !important;
+  }
+}
+@media (max-width: 599px) {
+  .b-slogans__owlContainerSlogans .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 55px !important;
+  }
+}/*# sourceMappingURL=owl-slogans.css.map */

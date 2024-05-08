@@ -1,0 +1,54 @@
+.b-slogans {
+  color: #D2D2D2;
+  background: #000;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+  &__mainTitle {
+    padding-bottom: 5%;
+    font-size: 40px;
+    text-align: center;
+    color: #ef3035;
+    font-family: "Roboto-Bold";
+    text-transform: uppercase;
+  }
+
+  &__flexRight {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 70%;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__flex {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
+    color: #ef3035;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: "Roboto-Bold";
+  }
+
+  &__text,
+  &__textRight {
+    font-family: "Montserrat-Regular";
+    letter-spacing: 1px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 1%;
+  }
+
+  &__owlContainerSlogans {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    overflow: hidden;
+
+  }
+}

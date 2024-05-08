@@ -1,0 +1,26 @@
+<div class="b-slogans" >
+  <div class="b-slogans__mainTitle">{{'aboutUs.values' | translate }}</div>
+
+<div class="b-slogans__content" *ngFor = 'let content of  contents; let i = index'>
+  <div [ngClass]="{'b-slogans__flex' : i === 0 || i === 2 || i === 4, 'b-slogans__flexRight': i === 1 || i ===3 || i === 5}">
+    <div class="b-slogans__title">{{ content.title | translate }}</div>
+    <div class="b-slogans__text">{{ content.text | translate }}</div>
+  </div>
+</div>
+
+
+<div class="b-slogans__owlContainerSlogans">
+  <owl-carousel-o [options]="customOptions">
+    <ng-container *ngFor="let content of contents">
+      <ng-template carouselSlide>
+        <div class="b-slogans__title">
+          {{ content.title | translate }}
+        </div>
+        <div class="b-slogans__text">
+          {{ content.text | translate }}
+        </div>
+      </ng-template>
+    </ng-container>
+  </owl-carousel-o>
+</div>
+</div>

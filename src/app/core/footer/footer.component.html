@@ -1,0 +1,36 @@
+<div class="b-footer">
+  <div class="b-footer__flex">
+    <div class="b-footer__logo">
+      <img src="assets/images/header/db-logo.jpg" alt="db-logo">
+      <div class="b-footer__title">{{ 'footer.text' | translate }}.</div>
+    </div>
+
+    <div class="b-footer__info">
+      <div class="b-footer__contact">{{ 'footer.contactUs' | translate }}</div>
+      <div class="b-footer__company">{{ 'footer.company' | translate }}</div>
+      <div class="b-footer__infoIcons">
+        <div><img src="assets/images/footer/address.png" alt="address">{{ 'footer.addressText' | translate }}</div>
+        <div><img src="assets/images/footer/email.png" alt="phone">db.sped@yahoo.com</div>
+        <div><img src="assets/images/footer/phone.png" alt="email">+389 70/506-025; +389 75/305-315</div>
+      </div>
+    </div>
+
+    <div class="b-footer__menu">
+      <div>{{ 'footer.links' | translate }}</div>
+      <ul>
+        <li><a routerLink="{{ 'routes.en/about' | translate }}">{{ "header.about" | translate }}</a></li>
+        <li><a routerLink="{{ 'routes.en/services' | translate }}">{{ "header.services" | translate }}</a></li>
+        <li><a routerLink="{{ 'routes.en/contact' | translate }}">{{ "header.contactUs" | translate }}</a></li>
+      </ul>
+      <div class="b-footer__media">
+        <div><a href="https://www.facebook.com/people/DB-International-Sped/61556724377033/"><img
+              src="assets/images/footer/facebook.png" alt="facebook"></a></div>
+        <!-- <div><a href=""><img src="assets/images/footer/instagram.png" alt="instagram"></a></div> -->
+      </div>
+
+    </div>
+
+
+  </div>
+  <div class="b-footer__rights">&copy;{{ year }} DB International Sped. {{ 'footer.rights' | translate }}.</div>
+</div>

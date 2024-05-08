@@ -1,0 +1,35 @@
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .b-contactImg {
+    padding-top: 9%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .b-contactImg {
+    padding-top: 13%;
+  }
+  .b-contactImg img {
+    height: 100px;
+    -o-object-position: 83% center;
+       object-position: 83% center;
+  }
+}
+@media (min-width: 451px) and (max-width: 767px) {
+  .b-contactImg {
+    padding-top: 17%;
+  }
+  .b-contactImg img {
+    height: 75px;
+    -o-object-position: 83% center;
+       object-position: 83% center;
+  }
+}
+@media (max-width: 450px) {
+  .b-contactImg {
+    padding-top: 25%;
+  }
+  .b-contactImg img {
+    height: 75px;
+    -o-object-position: 83% center;
+       object-position: 83% center;
+  }
+}/*# sourceMappingURL=media_queries.css.map */

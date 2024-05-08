@@ -1,0 +1,48 @@
+.b-us {
+  color: #D2D2D2;
+  padding-bottom: 5%;
+
+  &__title {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 40px;
+    text-align: center;
+    color: #ef3035;
+    font-family: "Roboto-Bold";
+    text-transform: uppercase;
+  }
+
+  &__flexOne,
+  &__flexTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding-bottom: 5%;
+  }
+
+
+  &__icon {
+    width: 13%;
+    padding: 1.5% 0;
+    text-align: center;
+    border: 2px solid #ef3035;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  &__icon:hover {
+    background-color: #ef3035;
+    transform: translateY(-10px);
+
+  }
+
+  img {
+    margin-bottom: 18%;
+  }
+
+  &__icon div {
+    font-size: 21px;
+    font-family: "Roboto";
+  }
+
+}

@@ -1,0 +1,57 @@
+.b-count {
+  background-color: #201e1f;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.562)), url('/assets/images/counter/bg.jpg') no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-family: "Roboto-Bold";
+  color: #ef3035;
+  position: relative;
+  margin-top: -2px;
+
+
+
+  &__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  &__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 20%;
+    padding-bottom: 5%;
+  }
+
+  &__flex div:nth-of-type(1) {
+    font-size: 30px;
+  }
+
+  &__icon {
+    width: 20%;
+    margin-bottom: 1%;
+  }
+
+  &__title {
+    padding-bottom: 2%;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+
+  }
+
+  &__text {
+    text-align: center;
+    letter-spacing: 1px;
+    width: 77%;
+    font-size: 18px;
+    color: #D2D2D2;
+    margin-top: 0%;
+  }
+
+}

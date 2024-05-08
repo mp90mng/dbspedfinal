@@ -1,0 +1,72 @@
+<div class="b-header">
+  <div class="b-header__flex">
+    <div class="b-header__logo">
+      <img src="assets/images/header/db-logo.jpg" alt="db-logo">
+    </div>
+
+    <div class="b-header__hamburger" [class.hidden]="iconV" (click)="hamburgerToggle()">
+            <span></span>
+            <span></span>
+            <span></span>
+    </div>
+
+    <div class="b-header__menu">
+      <ul class="b-header__ul">
+        <li><a routerLink="{{ 'routes.en/home' | translate }}">{{  "header.home" | translate }}</a></li>
+        <li><a routerLink="{{ 'routes.en/about' | translate }}">{{ "header.about" | translate }}</a></li>
+        <li><a routerLink="{{ 'routes.en/services' | translate }}">{{ "header.services" | translate }}</a></li>
+        <li><a routerLink="{{ 'routes.en/contact' | translate }}">{{ "header.contactUs" | translate }}</a></li>
+      </ul>
+    </div>
+
+    <div class="b-header__lang">
+      <div (click)="openLang()" class="b-header__langMenu">
+        <div>{{selectedLanguage().code}}</div>
+        <img [src]="selectedLanguage().img">
+      </div>
+
+      <div class="b-header__dropdownL" *ngIf="isToggle">
+        <div class="b-header__langDrop" *ngFor="let lang of languages; let i = index">
+          <div class="items" (click)="closeLang()">
+            <div class="b-header__selectLang" (click)="switchLanguage(lang.code)">{{ lang.code }} </div>
+            <img [ngClass]="{'mk': i === 2, 'en': i === 0}"  [src]="lang.img" alt="lang">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <!-- Header Mobile -->
+
+  <div class="menu" [class.menuClass]="menuV" >
+    <ul class="b-header__ulMobile">
+      <li (click)=" closeMenu()"><a routerLink="{{ 'routes.en/home' | translate }}">{{  "header.home" | translate }}</a></li>
+      <li (click)=" closeMenu()"><a routerLink="{{ 'routes.en/about' | translate }}">{{ "header.about" | translate }}</a></li>
+      <li (click)=" closeMenu()"><a routerLink="{{ 'routes.en/services' | translate }}">{{ "header.services" | translate }}</a></li>
+      <li (click)=" closeMenu()"><a routerLink="{{ 'routes.en/contact' | translate }}">{{ "header.contactUs" | translate }}</a></li>
+    </ul>
+
+    <div class="b-header__langMobile">
+      <div (click)="openLang()" class="b-header__langMenu">
+        <div>{{selectedLanguage().code}}</div>
+        <img [src]="selectedLanguage().img">
+      </div>
+
+      <div class="b-header__dropdownLMobile"  *ngIf="isToggle">
+        <div class="b-header__langDrop" *ngFor="let lang of languages; let i = index">
+          <div class="items" (click)="switchLanguage(lang.code); closeLangMobile()">
+            <div>{{ lang.code }} </div>
+            <img [ngClass]="{'mk': i === 2}" [src]="lang.img" alt="lang">
+          </div>
+        </div>
+    </div>
+    
+
+    </div>
+  </div>
+
+</div>
+
+
+

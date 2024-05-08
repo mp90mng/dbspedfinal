@@ -1,0 +1,15 @@
+@import url(assets/styles/fonts.scss);
+@import url(assets/styles/owl-carousel.scss);
+@import url(app/domain/slider/owl-slider.scss);
+@import url(app/domain/slogans/owl-slogans.scss);
+@import url(app/domain/clients/owl-clients.css);
+body {
+  margin: 0;
+  background-color: #1f1e1e;
+  color: #d2dcde;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}/*# sourceMappingURL=styles.css.map */

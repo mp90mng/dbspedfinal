@@ -1,0 +1,7 @@
+<div class="b-contactImg">
+    <div class="b-contactImg__flex">
+        <div *ngFor="let image of images; let i = index" class="curtainR" [style.animation-delay] = 'animation(i)' >      
+            <img [src]="image.img" [width]="imageWidth" [height]="imageHeight" priority alt="truck">        
+        </div>
+    </div>
+</div>

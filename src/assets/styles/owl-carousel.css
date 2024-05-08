@@ -1,0 +1,38 @@
+.owl-dots .owl-dot span {
+  position: relative;
+  top: 10px;
+  margin-left: 4.5px !important;
+  background: #FCFEFF !important;
+  margin-bottom: 0px !important;
+  width: 14px !important;
+  height: 13px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #ef3035 !important;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .owl-dots .owl-dot span {
+    width: 12px !important;
+    height: 12px !important;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  .owl-dots .owl-dot span {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+@media (max-width: 599px) {
+  .owl-dots .owl-dot span {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+@media (max-width: 280px) {
+  .owl-dots .owl-dot span {
+    width: 9px !important;
+    height: 9px !important;
+  }
+}/*# sourceMappingURL=owl-carousel.css.map */

@@ -1,0 +1,53 @@
+@media (min-width:1024px) and (max-width:1139px) {
+  .b-contactImg {
+    padding-top: 5%;
+  }
+}
+
+
+@media (min-width:768px) and (max-width:1023px) {
+  .b-contactImg {
+    padding-top: 17%;
+
+
+    img {
+      height: 100px;
+      object-position: 55% center;
+    }
+  }
+}
+
+@media (min-width:500px) and (max-width:767px) {
+  .b-contactImg {
+    padding-top: 20%;
+
+    img {
+      object-position: 50% center;
+    }
+  }
+  
+}
+
+@media (min-width:321px) and (max-width:499px) {
+  .b-contactImg {
+    padding-top: 20%;
+
+    img {
+      height:81px;
+      object-position: 27% center;
+    }
+  }
+}
+
+
+
+@media (max-width:320px) {
+  .b-contactImg {
+    padding-top: 19%;
+
+    img {
+      height:70.5px;
+      object-position: 27% center;
+    }
+  }
+}

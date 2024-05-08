@@ -1,0 +1,53 @@
+<div class="b-form">
+  <div class="b-form__text" *ngIf="!message">{{ 'contact.contactText' | translate }}</div>
+  <div class="b-form__flex" *ngIf="!message">
+    <div class="b-form__wrap">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="b-form__inputWrap">
+          <input type="text" formControlName="name" id="name" placeholder="{{ 'contact.name' | translate }}"
+            [class.invalid]="isInvalid('name')">
+        </div>
+        <span class="err"
+          *ngIf="form.get('name')?.invalid && form.get('name')?.touched ">{{ 'errors.required' | translate }}</span>
+
+        <div class="b-form__inputWrap">
+          <input type="email" formControlName="email" id="email" placeholder="{{ 'contact.email' | translate }}"
+            [class.invalid]="form.get('email')?.invalid" [class.invalid]="isInvalid('email')">
+        </div>
+        <span class="err"
+          *ngIf="form.get('email')?.errors?.['required'] && (form.get('email')?.touched || form.get('email')?.dirty)">{{ 'errors.required' | translate }}</span>
+        <span class="err"
+          *ngIf="form.get('email')?.errors?.['pattern'] && form.get('email')?.touched ">{{ 'errors.email' | translate }}</span>
+
+
+        <div class="b-form__inputWrap">
+          <input type="text" formControlName="phone" id="phone" placeholder="{{ 'contact.phone'| translate }}"
+            [class.invalid]="form.get('phone')?.invalid" [class.invalid]="isInvalid('phone')">
+        </div>
+        <span class="err"
+          *ngIf="form.get('phone')?.errors?.['required'] && (form.get('phone')?.touched || form.get('phone')?.dirty)">{{ 'errors.required' | translate }}</span>
+        <span class="err"
+          *ngIf="form.get('phone')?.errors?.['pattern'] && (form.get('phone')?.touched || form.get('phone')?.dirty)">{{ 'errors.phone' | translate }}</span>
+
+
+        <div class="b-form__inputWrap">
+          <textarea type="text" formControlName="message" name="message" id="message"
+            placeholder="{{ 'contact.message' | translate }}" [class.invalid]="form.get('message')?.invalid"
+            [class.invalid]="isInvalid('message')"></textarea>
+        </div>
+        <span class="err"
+          *ngIf="form.get('message')?.invalid && form.get('message')?.touched">{{ 'errors.required' | translate }}</span>
+        <br>
+        <button type="submit" [disabled]="form.invalid">{{ 'contact.submit' | translate }}</button>
+      </form>
+    </div>
+
+
+    <div class="b-form__imgWrap">
+      <img ngSrc="assets/images/contact/truck2.jpg" width="561" height="636" alt="truck" class="b-form__img">
+    </div>
+  </div>
+
+  <div *ngIf="message" class="b-form__messageSent">{{ 'contact.contactMessage' | translate }}</div>
+
+</div>

@@ -1,0 +1,51 @@
+.b-lines {
+  background: rgba(0, 0, 0, 0.658) url("/assets/images/services/lines.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 22%;
+  padding-bottom: 24%;
+  position: relative;
+}
+.b-lines__line {
+  font-family: "Montserrat-SemiBold";
+  font-size: 18px;
+  color: #D2D2D2;
+  text-align: center;
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.b-lines__lineOne {
+  position: absolute;
+  top: 22%;
+  left: 20%;
+}
+.b-lines__lineTwo {
+  position: absolute;
+  top: 57%;
+  left: 23%;
+}
+.b-lines__lineThree {
+  position: absolute;
+  top: 30%;
+  left: 62%;
+}
+.b-lines__lineFour {
+  position: absolute;
+  top: 66%;
+  left: 59%;
+}
+.b-lines__lineFive {
+  position: absolute;
+  left: 40%;
+  top: 79%;
+}
+.b-lines__text {
+  width: 85%;
+  text-align: center;
+}
+.b-lines .hidden {
+  display: none;
+}/*# sourceMappingURL=lines.component.css.map */

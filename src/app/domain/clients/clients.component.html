@@ -1,0 +1,21 @@
+<div class="b-clients">
+   <div class="b-clients__mainTitle">{{ 'testimonials.title' | translate }}</div>
+    <owl-carousel-o [options]="customOptions">
+      <ng-container *ngFor="let slide of slides">
+        <ng-template carouselSlide>
+            <div class="b-clients__wrapper">
+                <div class="b-clients__img">
+                  <img  src="assets/images/clients/quote.png" alt="quote">
+                </div>
+                  <div class="b-clients__text">
+                    {{ slide.text | translate }}
+                  </div>
+                <div class="b-clients__partner">
+                  {{ slide.partner | translate }}
+                </div>
+            </div>
+        </ng-template>
+      </ng-container>
+    </owl-carousel-o>
+  </div>
+

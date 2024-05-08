@@ -1,0 +1,124 @@
+ {
+   "routes": {
+     "en/home": "de/startseite",
+     "en/about": "de/überUns",
+     "en/services": "de/services",
+     "en/contact": "de/kontakt"
+   },
+
+   "header": {
+     "home": "Startseite",
+     "about": "Über Uns",
+     "services": "Services",
+     "contactUs": "Kontakt"
+   },
+
+   "footer": {
+     "about": "Über Uns",
+     "services": "Services",
+     "contactUs": "Kontaktiere Uns",
+     "contact": "Kontakt",
+     "company": "DB International Sped GmbH",
+     "addressText": "Sveta Gora 8, Blagoevgrad, Bulgarien",
+     "text": "Wir arbeiten jeden Tag hart daran, unsere Kunden zu begeistern",
+     "links": "Links",
+     "rights": "Alle Rechte vorbehalten"
+   },
+
+
+   "aboutUs": {
+     "title": "Über Uns",
+     "story": "Geschichte",
+     "history": "Das Unternehmen DB International Sped ist ein Fracht- und Logistikunternehmen. Im Jahr 2016 wurde von dem jungen und ehrgeizigen Unternehmer Herrn Stojan Gavrilov gegründet. Das Unternehmen begann als klein Geschäft mit nur einem Lastwagen und aber klare Vision: sichere und effiziente Transportdienstleistungen anzubieten. Derzeit beschäftigt unser Unternehmen über 140 Mitarbeiter, die professionell geschult sind, ihre Aufgaben kompetent zu erledigen. Das Ziel dahinter - alle Anforderungen unserer Kunden zu erfüllen. Durch Engagement, harte Arbeit und erfolgreiches Management erlebte das Unternehmen ein bemerkenswertes Wachstum und Expansion. Heute sind sie stolz darauf, eine Flotte von über 80 Lastwagen zu verwalten und als schnell wachsendes, modernes und glaubwürdiges Transportunternehmen angesehen zu werden.",
+     "values": "Werte",
+     "mission": "Mission",
+     "missionText": "Ziel des Unternehmens ist es, außergewöhnliche Transportlösungen zu leisten, wobei Effizienz, Sicherheit und Erschwinglichkeit bei höchsten Standards an Professionalität im Vordergrund stehen.",
+     "integrity": "Integrität",
+     "integrityText": "Das Unternehmen zielt darauf, das Geschäft mit höchster Integrität, Ehrlichkeit und Transparenz zu führen und Vertrauen in allen seinen Beziehungen zu fördern.",
+     "excellence": "Exzellenz",
+     "excellenceText": "Das Unternehmen ist bestrebt, in jedem Bereich seiner Tätigkeit Perfektion zu erreichen, angefangen bei der Betreuung der Kunden bis hin zur operativen Effizienz.",
+     "innovation": "Innovation",
+     "innovationText": "Die Umsetzung von Innovationen ermöglicht es, das Unternehmen branchenführend zu bleiben und erstklassige Lösungen für seine Kunden zu liefern.",
+     "loyalty": "Loyalität",
+     "loyaltyText": "Die Erfahrung des Unternehmens spricht für sich – es ist unerschütterlich in seinem Engagement, seiner Loyalität und seiner Beständigkeit in allem, was gemacht wurde.",
+     "vision": "Vision",
+     "visionText": "Mit Blick auf die Zukunft besteht die Vision des Unternehmens darin, weltweit zu expandieren und gleichzeitig den persönlichen Ansatz als Familienunternehmen beizubehalten."
+   },
+
+   "numbers": {
+     "title": "Unser Wachstum in Zahlen",
+     "employees": "Mitarbeiter",
+     "km": "Kilometer jährlich",
+     "clients": "Kunden",
+     "turnover": "Euro Jahresumsatz"
+   },
+
+   "reasons": {
+     "reasonsText": "Sechs Gründe, uns auszuwählen",
+     "safe": "Immer sicher",
+     "environment": " Umweltfreundlich",
+     "solutions": "Perfekte Lösungen",
+     "quality": "100% Qualität",
+     "customerSatisfaction": "Zufriedene Kunden",
+     "available": "24/7 verfügbar"
+   },
+
+   "contact": {
+     "contactInfo": "In Kontakt kommen",
+     "contactUs": "Kontaktiere Uns",
+     "contactText": "Möchten Sie mehr über unser Unternehmen erfahren? Nehmen Sie gerne Kontakt mit uns auf! Unabhängig davon, ob Fragen oder Feedback, wir helfen Ihnen gerne weiter",
+     "contactMessage": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+     "name": "Name oder Firmenname",
+     "email": "E-Mail",
+     "phone": "Telefonnummer",
+     "message": "Nachricht",
+     "submit": "Absenden"
+   },
+
+   "errors": {
+     "required": "Erforderliches Feld",
+     "email": "Geben Sie Ihre E-Mail-Adresse",
+     "phone": "Geben Sie Ihre Telefonnummer"
+   },
+
+
+   "destination": {
+     "destinations": "Ziel: Vorzüglichkeit",
+     "destinationsText": "Erreichen Sie Ihr Ziel, 100% sicher und geschützt",
+     "destinationBtn": "Kontaktiere Uns"
+   },
+
+   "aboutHome": {
+     "title": "Über Uns",
+     "titleText": "Transportieren Sie Ihre Produkte über alle Grenzen hinweg",
+     "titleSubText": "Wir sind auf den grenzüberschreitenden Transport Ihrer Produkte spezialisiert und sorgen für eine reibungslose und zuverlässige Logistik. Mit unserem engagierten Team und modernsten Lösungen legen wir Wert auf die sichere und effiziente Lieferung Ihrer Waren und sind damit der vertrauenswürdige Partner für alle Ihre Transportbedürfnisse."
+   },
+
+   "banner": {
+     "text": "Ihre Ware, unsere Garantie"
+   },
+
+   "services": {
+    "title": "Services",
+    "text": "DB International Sped ist auf den internationalen Gütertransport in zahlreichen europäischen Ländern spezialisiert, darunter Deutschland, Dänemark, Norwegen, Schweden, die Niederlande, Italien, England, Spanien, Portugal, Belgien, Österreich und andere Länder in ganz Europa. Unsere Priorität ist unsere Tätigkeiten mit höchster Professionalität durchzuführen und dabei besonderen Wert auf die Sicherheit der von uns transportierten Waren zu legen. Alle in unserem Besitz befindlichen LKWs sind mit einer CMR-Versicherung versichert, die einen umfassenden Schutz sowohl für die Ladung als auch für den Transporter gewährleistet. Sie können sich voll und ganz darauf verlassen, dass Sie uns Ihre Waren anvertrauen, denn wir garantieren deren Sicherheit während des gesamten Transportprozesses, einschließlich der Be- und Entladung, die von demselben verantwortlichen Fahrer überwacht wird. Derzeit verfügen wir über eine Flotte von über 80 LKWs, die sowohl Standard- als auch Mega-Fahrzeuge umfassen und verschiedene Strecken bedienen. Ausgestattet mit GPS-Navigationssystemen ermöglichen unsere LKW eine pünktliche, zuverlässige und sorgfältig geplante Zustellung der Transportgüter.",
+    "GPS": "Echtzeit-GPS-Positionierung und Verfolgung von Fahrzeugen 24/7",
+    "communication": "Kontinuierliche Kommunikation mit Fahrzeugen rund um die Uhr – 24/7",
+    "team": "Effektive Kommunikation mit unseren Teammitgliedern",
+    "CRM": "Alle Fahrzeuge sind durch die CMR-Vollversicherung abgedeckt",
+    "destination": "Ziel: von/nach Europa"
+   },
+
+   
+   "slogans": {
+    "services": "Ihr zuverlässiger Partner für den Transport von Gütern von A nach B"
+   },
+
+   "testimonials": {
+    "title": "Was unsere Partner sagen",
+    "textOne": "Ihre Professionalität, Zuverlässigkeit und ihr Engagement für die sichere und pünktliche Zustellung der Sendungen haben unsere Erwartungen übertroffen. Seit dem ersten Tag, als wir ihre Dienste in Anspruch genommen haben, waren wir von Ihre Aufmerksamkeit zumDetails und ihrem Engagement für die Kundenzufriedenheit beeindruckt.",
+    "partnerOne": "Ulaş Kaya - Greenlog Intermodal",
+    "textTwo": "Über die Zusammenarbeit mit DB International Sped sind wir vergnügt. Wir sind äußerst zufrieden mit dem außergewöhnlichen Service, den sie bieten. Die Effizienz, Pünktlichkeit und persönlicher Ansatz zeichnen sich im Vergleich zu anderen Unternehmen aus. Sie kümmern sich von Anfang bis Ende sorgfältig um jedes Detail und stellten sicher, dass alles reibungslos und ohne Probleme verlief.",
+    "partnerTwo": "Radmila Andonov - B+R Logistik GMBH"
+ }
+
+ }
