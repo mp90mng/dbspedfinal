@@ -19,7 +19,9 @@ export class SliderComponent {
   slides = [
     {img: './assets/images/slider/slideOne.jpg'},
     {img: './assets/images/slider/slideTwo.jpg'},
-    {img:'./assets/images/slider/slideThree.jpg'}
+    {img:'./assets/images/slider/slideThree.jpg'},
+    {img:'./assets/images/slider/slideFour.jpg'}
+
   ]
  customOptions: OwlOptions = {
     loop: true,

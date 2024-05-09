@@ -4,7 +4,7 @@
     <ng-container *ngFor="let slide of slides; let i = index">
       <ng-template carouselSlide>
         <div class="b-slider__slide">
-          <img [ngSrc]="slide.img" width="1600" height="721" priority alt="slide" class="b-slider__slideImg">
+          <img [ngSrc]="slide.img" width="1600" height="721" priority alt="slide" class="b-slider__slideImg" [ngClass]="{'fourthImg': i === 3}">
           <div class="b-slider__overlay"></div>
           <div [@textAnim] class="b-slider__img">
             <img src="assets/images/banner/logo.png" alt="logo">
